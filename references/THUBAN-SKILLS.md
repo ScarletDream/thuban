@@ -4,6 +4,17 @@
 
 Create `THUBAN-SKILLS.md` only when project work repeatedly pays a real cost choosing among Skills, or when the user explicitly wants a project capability router. It is not an installed-Skill inventory and not a package manager.
 
+## Discovery without installation reports
+
+Codex discovers Skills independently of this router. Whenever Thuban adopts, audits, or repairs a project, inspect the Skill names and descriptions discoverable in the current session against recurring project needs already supported by evidence. Do not require the user to announce a newly installed Skill, and do not treat the current session's catalog as proof that every installed Skill was enumerated.
+
+Discovery is opportunistic, not a background subscription:
+
+- an unrelated Skill produces zero diff;
+- a relevant new Skill is at most a Candidate until representative project work supplies evidence;
+- a Skill that materially succeeds or fails on recurring project work is capability evidence for the next governance review, not silent authority to rewrite the router;
+- if no project router exists and repeated selection cost is absent, discovery alone does not create one.
+
 ## Project file
 
 ```markdown

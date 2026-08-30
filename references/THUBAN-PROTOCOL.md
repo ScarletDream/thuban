@@ -142,6 +142,25 @@ Audit in three layers:
 
 Audit and repair are separate authorities. A request to inspect does not authorize edits.
 
+### Independent recovery acceptance
+
+After deterministic validation, run one independent, read-only, fresh-context acceptance pass for an initial adoption or a material governance write that changes bootstrap, authority, node topology or lifecycle, Scope or Contract meaning, Skill routing, or write-side document consolidation or disposition. Do not require this pass for narrow runtime maintenance, mechanical link repair, or a zero-diff audit.
+
+When delegation is available and allowed, give the evaluator only the exact owned scope, an explicit allow-list of current project artifacts, explicit exclusions, and one or more representative recovery tasks. Exclude the intended answer, implementation or audit report, suspected defect, prior reviewer conclusions, and unrelated conversation context even when such material is stored inside the scope, unless a representative task explicitly tests that artifact as raw evidence. The evaluator changes no files and checks structure, semantics, recovery, protected boundaries, and whether a new agent can reach decision-sufficient evidence without broad loading.
+
+Treat the result as evidence, not an approval gate. Verify concrete findings independently; if a fix exceeds the approved packet, preview it separately. If independent delegation is unavailable, report `independent recovery unverified` and suggest a fresh task rather than claiming full acceptance.
+
+## Core compatibility and project upgrades
+
+The loaded user-scope Thuban package is the single mechanism authority. Governed projects retain only their project-owned nodes, optional router, and managed bootstrap; never mirror `SKILL.md` or its references into each project.
+
+Classify a core update before touching projects:
+
+- **Backward-compatible:** improves decision logic without invalidating the meanings or required shapes of existing markers. Update only the core Skill; compatible projects remain zero diff and use the new behavior on the next Thuban invocation.
+- **Project-surface breaking:** changes a required node, router, bootstrap shape, marker meaning, or maintenance contract such that an existing project could be misread. Bump only the relevant marker version and define the exact migration and recovery path.
+
+For a breaking update, scan only user-authorized roots for Thuban marker candidates, including recognized marker prefixes and malformed or unknown-version variants. Produce a compatibility matrix that identifies compatible, migration-required, malformed or unknown-version, and excluded scopes. Do not maintain a hidden global registry, scan unrelated roots, or rewrite projects in the background. Preview one bounded migration packet for the incompatible projects; unchanged compatible projects remain zero diff. Validate each applied migration and use independent recovery acceptance when the packet is material.
+
 ## Reporting postures
 
 Use three consequence levels:

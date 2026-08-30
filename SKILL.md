@@ -21,8 +21,9 @@ Build the smallest evidence-backed control map that lets future agents make corr
 5. Assign truth by subject: verified reality, intent, instructions, or history. Resolve conflicts with evidence; newer prose does not win automatically.
 6. Keep state at the narrowest node that owns its consequences. Root state contains only project-level consequences; do not manufacture one global current-state document.
 7. Validate routes, claimed paths, instruction precedence, postconditions, and zero-diff behavior before reporting.
+8. After an initial adoption or another material governance write, run the protocol's independent recovery acceptance when delegation is available and allowed. Ordinary maintenance and zero-diff audits do not earn this ceremony.
 
-Read [THUBAN-PROTOCOL.md](references/THUBAN-PROTOCOL.md) before creating, splitting, merging, repairing, or auditing Thuban nodes; changing their authority or topology; proposing an `AGENTS.md` bootstrap; or consolidating, archiving, or cleaning durable project documents as governance work.
+Read [THUBAN-PROTOCOL.md](references/THUBAN-PROTOCOL.md) before creating, splitting, merging, repairing, or auditing Thuban nodes; changing their authority or topology; proposing an `AGENTS.md` bootstrap; consolidating, archiving, or cleaning durable project documents as governance work; or assessing project compatibility with a Thuban core update.
 
 ## Authority
 
@@ -41,6 +42,12 @@ Ordinary task work may synchronize only verified local state and mechanically ch
 ## Skill routing
 
 Do not create a Skill pool by default. Read [THUBAN-SKILLS.md](references/THUBAN-SKILLS.md) only when the user asks about project Skills, an existing router is audited or repaired, or repeated capability selection has demonstrated routing cost.
+
+During every adoption, audit, or repair, opportunistically compare the Skills discoverable in the current session with demonstrated recurring project needs. The user does not need to report installations. Do not build an inventory or background watcher: unrelated discoveries produce zero diff, and a newly relevant Skill is at most a Candidate until project evidence supports a stronger route.
+
+## Core compatibility
+
+The loaded user-scope Skill is the mechanism authority; do not copy its core files into governed projects. Project markers express on-disk compatibility. A backward-compatible core improvement changes no project file. A project-surface breaking change requires a bumped relevant marker and an authorized compatibility audit before any migration.
 
 ## Update and report
 
