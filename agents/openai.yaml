@@ -1,0 +1,7 @@
+interface:
+  display_name: "Thuban"
+  short_description: "治理项目边界、文档生命周期、局部状态、知识路由与 Skill 选择"
+  default_prompt: "Use $thuban to audit and establish the smallest durable governance system for this project."
+
+policy:
+  allow_implicit_invocation: true
