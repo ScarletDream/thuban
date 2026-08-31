@@ -10,6 +10,12 @@ Thuban 帮助编码智能体找到恰当的上下文、尊重文档权威，并�
 
 它是一个独立的 [Codex Skill](https://learn.chatgpt.com/docs/build-skills)，不是 OpenAI 产品。
 
+### 名字的由来
+
+[Thuban（天龙座 α 星）](https://dictionary.obspm.fr/terms/thuban/)的传统名称源于阿拉伯语 *ath-thuʿbān*，意为“大蛇”或“巨蛇”。由于地球自转轴的进动，它大约在公元前 2700 年曾非常接近北天极，是古代的北极星。
+
+这个名字也是本项目的设计隐喻：Thuban 不替项目做所有决定，而是为长期协作提供一个稳定的定向基准——让后来进入项目的智能体知道先看哪里、哪些证据代表现实，以及哪些边界不能擅自越过。
+
 ### 为什么需要 Thuban
 
 AI 协作项目往往不是突然失败，而是逐渐失控：
@@ -121,6 +127,12 @@ Thuban 目前处于预发布阶段。在一个独立、非公开的评估工作�
 Thuban helps coding agents recover the right context, respect document authority, and make durable project changes without turning a repository into a pile of handoffs, status snapshots, and duplicated instructions.
 
 It is a standalone [Codex Skill](https://learn.chatgpt.com/docs/build-skills), not an OpenAI product.
+
+### Why the name Thuban?
+
+[Thuban, or Alpha Draconis](https://dictionary.obspm.fr/terms/thuban/), takes its traditional name from the Arabic *ath-thuʿbān*, meaning a large snake or serpent. Because of the precession of Earth's rotational axis, it lay close to the north celestial pole around 2700 BCE and served as an ancient pole star.
+
+The name is also a design metaphor. Thuban does not make every project decision; it provides a stable reference for long-running collaboration, helping the next agent find the right starting point, distinguish evidence from intent or history, and respect boundaries it does not own.
 
 ### Why Thuban exists
 
